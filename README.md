@@ -2,20 +2,25 @@
 
 vue3 + pinia + vue-router多角色权限控制管理系统demo
 
-## Project Setup
+## 安装依赖
 
 ```sh
 yarn install
 ```
 
-### Compile and Hot-Reload for Development
+### 启动项目
 
 ```sh
 yarn dev
 ```
 
-### Compile and Minify for Production
+### 打包项目
 
 ```sh
 yarn build
 ```
+
+### 服务端
+
+[链接](https://github.com/sepctrelv/vue3-permission-demo/tree/serve)
+
