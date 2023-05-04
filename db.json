@@ -1,0 +1,125 @@
+{
+  "users": [
+    {
+      "uid": 1,
+      "account": "admin",
+      "password": "123456",
+      "identity": "admin",
+      "token": "4ec839a4-a4b2-43de-9035-18c43ced3789"
+    },
+    {
+      "uid": 2,
+      "account": "member",
+      "password": "123456",
+      "identity": "member",
+      "token": "3772632f-b2b7-405d-8254-3dfd5d5ff561"
+    },
+    {
+      "uid": 3,
+      "account": "guest",
+      "password": "123456",
+      "identity": "guest",
+      "token": "38675c48-690f-4540-b153-0fe845d4d375"
+    }
+  ],
+  "role": {
+    "admin": {
+      "rid": 1,
+      "name": "admin",
+      "res": [
+        {
+          "mid": 1,
+          "name": "index",
+          "title": "首页",
+          "path": "",
+          "component": "index",
+          "icon": "iconshouye"
+        },
+        {
+          "mid": 2,
+          "name": "census",
+          "title": "统计管理",
+          "path": "census",
+          "component": "census",
+          "icon": "iconcensus"
+        },
+        {
+          "mid": 3,
+          "name": "finance",
+          "title": "财务管理",
+          "path": "finance",
+          "component": "finance",
+          "icon": "iconfinance"
+        },
+        {
+          "mid": 4,
+          "name": "product",
+          "title": "产品管理",
+          "path": "product",
+          "component": "product",
+          "icon": "iconproduct"
+        },
+        {
+          "mid": 5,
+          "name": "order",
+          "title": "订单管理",
+          "path": "order",
+          "component": "order",
+          "icon": "iconorder"
+        },
+        {
+          "mid": 6,
+          "name": "member",
+          "title": "会员管理",
+          "path": "member",
+          "component": "member",
+          "icon": "iconmember"
+        }
+      ]
+    },
+    "member": {
+      "rid": 2,
+      "name": "member",
+      "res": [
+        {
+          "mid": 1,
+          "name": "index",
+          "title": "首页",
+          "path": "",
+          "component": "index",
+          "icon": "iconshouye"
+        },
+        {
+          "mid": 2,
+          "name": "census",
+          "title": "统计管理",
+          "path": "census",
+          "component": "census",
+          "icon": "iconcensus"
+        },
+        {
+          "mid": 6,
+          "name": "member",
+          "title": "会员管理",
+          "path": "member",
+          "component": "member",
+          "icon": "iconmember"
+        }
+      ]
+    },
+    "guest": {
+      "rid": 3,
+      "name": "guest",
+      "res": [
+        {
+          "mid": 1,
+          "name": "index",
+          "title": "首页",
+          "path": "",
+          "component": "index",
+          "icon": "iconshouye"
+        }
+      ]
+    }
+  }
+}
