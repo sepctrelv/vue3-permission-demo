@@ -1,0 +1,11 @@
+@import './base.css';
+
+#app {
+    height: 100%;
+}
+
+.wrap {
+    font-size: 40px;
+    text-align: center;
+    color: #003775;
+}
